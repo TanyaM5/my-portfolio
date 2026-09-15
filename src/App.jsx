@@ -81,6 +81,27 @@ return ( <div className="portfolio">
       <div className="skill-card">VS Code</div>
     </div>
   </section>
+ 
+{/* Education */}
+<section className="section education" id="education">
+  <p className="section-label">EDUCATION</p>
+
+  <h2>Web Development Education</h2>
+
+  <div className="education-card">
+    <p className="education-date">CERTIFICATE</p>
+
+    <h3>Web & Mobile Design</h3>
+
+    <h4>St. Philip's College</h4>
+
+    <p>
+      Studied web and mobile design with a focus on building websites,
+      responsive layouts, user interfaces, and foundational web development
+      skills.
+    </p>
+  </div>
+</section>
 
  {/* Projects */}
 <section className="section projects" id="projects">

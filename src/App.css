@@ -426,4 +426,49 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
+   /* Education */
+
+.education {
+  background: #ffffff;
+}
+
+.education-card {
+  max-width: 750px;
+  margin-top: 35px;
+  padding: 35px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+  transition: 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
+}
+
+.education-date {
+  margin-bottom: 10px !important;
+  font-size: 0.85rem !important;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #2563eb !important;
+}
+
+.education-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+  color: #0f172a;
+}
+
+.education-card h4 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #475569;
+}
+
+.education-card p:last-child {
+  color: #475569;
+}
 }
